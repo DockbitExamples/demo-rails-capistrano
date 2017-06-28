@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '5.0.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -36,6 +36,8 @@ group :development, :test do
   gem 'capistrano-rbenv', '~> 2.0'
   gem 'capistrano-bundler', '~> 1.1'
   gem 'net-ssh', '~> 2.9.2'
+  gem 'rails-controller-testing'
+  gem 'minitest', '~> 5.10', '!= 5.10.2'
 end
 
 group :development do
