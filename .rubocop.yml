@@ -1,6 +1,6 @@
 AllCops:
-  RunRailsCops: true
-
+  Rails:
+    Enabled: true
   Include:
     - '**/config.ru'
   Exclude:
@@ -10,6 +10,7 @@ AllCops:
     - 'script/**/*'
     - 'bin/**/*'
     - 'vendor/bundle/**/*'
+
 
 Lint/AssignmentInCondition:
   Enabled: false
